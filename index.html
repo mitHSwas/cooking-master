@@ -8,22 +8,11 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <header>
-        <nav id="navbar">
-            <ul id="navTitle">
-                <h3>Cooking Master</h3>
-            </ul>
-            <ul id="navLink">
-                <li>Home</li>
-                <li>About</li>
-                <li>Recipes</li>
-                <li>Blog</li>
-            </ul>
-        </nav>
-    </header>
     <main>
-        <input id="searchArea" type="text" placeholder="search meals first latter....">
-        <button onclick="displayMeal()">Search</button>
+        <div class="searchArea">
+            <input id="searchInput" type="text" placeholder="search meals first latter....">
+            <button onclick="displayMeal()">Search</button>
+        </div>
         <div id="mealDetail">
             <div id="mealDetails"></div>
         </div>

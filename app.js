@@ -1,5 +1,5 @@
 displayMeal = () => {
-    const searchLatter = document.getElementById('searchArea').value;
+    const searchLatter = document.getElementById('searchInput').value;
     const url = `https://www.themealdb.com/api/json/v1/1/search.php?f=${searchLatter}`
     fetch(url)
     .then(res => res.json())
